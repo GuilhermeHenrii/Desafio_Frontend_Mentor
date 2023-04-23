@@ -1,0 +1,127 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --ligth_grey: hsl(217, 12%, 63%);
+    --medium_grey: hsla(216, 12%, 54%, 0.192);
+    --Dark_blue : hsl(213, 19%, 18%);
+    --very_dark_blue:hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+
+main{
+    background-color: var(--very_dark_blue);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.card{
+    background-color: var(--Dark_blue);
+    height: 500px;
+    min-width: 375px;
+    max-width: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.795);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin: 0, 25px 0, 25px;
+}
+
+
+.star{
+    background-color: var(--medium_grey);
+    border-radius: 50px;
+    margin-left: 35px;
+    width: 45px;
+    height: 45px;
+} 
+
+
+.image-star{
+    width: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.tittle{
+    color:  var(--white);
+    margin-left: 35px;
+}
+
+
+.paragraph{
+    margin-left: 35px;
+    color: var(--ligth_grey);
+}
+
+
+.buttons_numbers{
+    margin-left: 35px;
+}
+
+
+.button-number{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--medium_grey);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.new-color{
+    background-color: var(--orange);
+}
+
+
+.button-number:hover{
+    transition: background-color 0.3s ease;
+    background-color: var(--ligth_grey);
+}
+
+.button-submit{
+    width: 85%;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 35px;
+    transition: background-color 0.3s ease;
+}
+
+
+.button-submit:hover{
+    background-color: white;
+    color: var(--orange);
+}
+
