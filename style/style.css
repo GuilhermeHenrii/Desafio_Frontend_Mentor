@@ -103,7 +103,7 @@ main{
 
 .button-number:hover{
     transition: background-color 0.3s ease;
-    background-color: var(--ligth_grey);
+    background-color: var(--orange);
 }
 
 .button-submit{
