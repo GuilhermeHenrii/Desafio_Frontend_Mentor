@@ -9,6 +9,7 @@ Esse projeto tem como objetivo simular uma página de avaliação de um atendime
 
 ## Layout web
 ![Web 1](./assets/desafio-frontednMentor-pagina-de-avaliacao-web.PNG)
+![Web 2](./assets/pagina-de-agradecimento-mobile1.PNG)
 
 # Tecnologias utilizadas
 
